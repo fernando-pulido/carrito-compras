@@ -1,0 +1,43 @@
+.card {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-color: white;
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /* Espacio entre las cards */
+  padding: 9px;
+  overflow: hidden;
+  border-color: white;
+}
+.imagen1 {
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+}
+.imagen {
+  width: 200px;
+  height: 200px;
+}
+
+button {
+  margin-right: 15px;
+  padding: 10px 20px;
+}
+
+h5 {
+  color: #ffec2d;
+}
+p {
+  color: white;
+}
+
+small {
+  color: #ffec2d;
+}
+
+h2 {
+  color: #ffec2d;
+  margin-bottom: 30px;
+}
