@@ -1,10 +1,10 @@
 import type { Product } from '../types'
-import './cart.css'
 export type CartProductProps = {
   productProps: Product
   addToCart: (item: Product) => void
 }
 
+import './cart.css'
 const Cart = ({ productProps, addToCart }: CartProductProps) => {
   const { id, image, name, price, description } = productProps
   return (

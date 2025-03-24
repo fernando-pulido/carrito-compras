@@ -1,4 +1,4 @@
-import RoutesPublic from './routes/Routes'
+import RoutesPublic from './routes/RoutesPublic'
 
 import './App.css'
 
