@@ -1,6 +1,6 @@
-import { CartItem } from '../types'
+import { CartItem } from '../../types'
 
-import '../components/cart.css'
+import '../../components/css/cart.css'
 
 interface CartViewsProps {
   cart: CartItem[]

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-import '../App.css'
+import '../css/cart.css'
 
 const Navbar = () => {
   return (

@@ -1,9 +1,9 @@
 import { useState } from 'react'
 
-import { db } from '../data/db'
-import Cart from '../components/Cart'
+import { db } from '../../data/db'
+import Cart from '../../components/Carts/Cart'
 
-import { Product } from '../types'
+import { Product } from '../../types'
 
 type HomeProps = {
   addToCart: (product: Product) => void

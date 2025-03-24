@@ -1,6 +1,6 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
-import Home from '../views/Home'
-import CartViews from '../views/CartViews'
+import Home from '../views/Home/Home'
+import CartViews from '../views/CartViews/CartViews'
 import { CartItem, Product, ProductId } from '../types'
 
 type RoutesProps = {

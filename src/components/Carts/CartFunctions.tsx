@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { CartItem, Product, ProductId } from '../types'
+import { CartItem, Product, ProductId } from '../../types'
 
 const MAX_ITEMS = 5
 const MIN_ITEMS = 1
